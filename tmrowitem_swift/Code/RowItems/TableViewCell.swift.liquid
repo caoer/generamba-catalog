@@ -1,0 +1,24 @@
+//
+//  {{ prefix }}{{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import UIKit
+import TMKit
+
+class {{ module_info.name }}RowItem: TMRowItem {
+    override func configureCell(cell: UITableViewCell) {
+        if let cell = cell as? {{ module_info.name }}TableViewCell {
+            
+        }
+    }
+}
+
+class {{ module_info.name }}TableViewCell: TMBaseTableViewCell {
+    override func awakeFromNib() {
+       super.awakeFromNib()
+    }
+}
